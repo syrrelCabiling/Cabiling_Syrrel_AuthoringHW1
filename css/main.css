@@ -1,0 +1,114 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.hidden
+{
+	display: none;
+}
+
+
+body
+{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	background: url(../images/brickwall_@2X.png) fixed;
+}
+
+#container
+{
+	margin: 0 auto;
+	padding: 0;
+	background-color: white;
+	width: 1000px;
+	height: auto;
+	overflow: hidden;
+}
+
+#imageContent
+{
+	clear: both;
+	width: 700px;
+	position:static;
+	margin: 0 auto;
+	float: right;
+}
+
+#sideBar
+{
+	width: 300px;
+	height: 100%;
+	position: fixed;
+	background-color: #5A5A5A;
+	clear: both;
+
+}
+
+.logo
+{
+	margin: 0 auto;
+	display: block;
+}
+
+#welcomeMsg
+{
+	padding: 10px 10px 10px 10px;
+	font-size: 12px;
+	font-weight: bold;
+	color: white;
+	text-align: justify;
+}
+
+.still
+{
+	float: left;
+	padding: 30px;
+	overflow: hidden;
+
+}
+
+.portrait1
+{
+	float: right;
+	padding: 30px;
+	clear: both;
+}
+
+.portrait2
+{
+	float: left;
+	padding: 30px;
+	overflow: hidden;
+}
+
+.portrait7
+{
+	float: left;
+	clear: both;
+	padding: 30px;
+	overflow: hidden;
+}
+
+.portrait_gallery
+{
+	float: right;
+	padding: 30px;
+	overflow: hidden;
+}
+
+.archi
+{
+	float: right;
+	padding: 30px;
+	overflow: hidden;
+}
+
+
+#videoArea
+{
+	overflow: hidden;
+	margin-top: 20px;
+	padding-left: 30px;
+	padding-right:30px;
+	margin-bottom: 30px;
+
+}
